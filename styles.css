@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bio {
+    height: 400px;
+    width: 400px;
+    background-color: rebeccapurple;
+    position: relative;
+}
+
+.bio:hover{
+    background-color: orange;
+}
+
+a.fill-div{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.educ {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    position: relative;
+    left: 400px;
+}
+
+.educ:hover{
+    background-color: orange;
+}
+
+.hobbies{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+}
+
+.hobbies:hover{
+    background-color: orange;
+}
+
+.photo{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: relative;
+    bottom: 1200px;
+    left: 800px; 
+}
+
+.photo:hover{
+    background-color: orange;
+}
+
+.contact{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    bottom: 800px;
+    left: 800px;
+}
+
+.contact:hover{
+    background-color: orange;
+}
